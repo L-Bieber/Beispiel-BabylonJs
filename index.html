@@ -37,13 +37,24 @@
             left: 50%;
             transform: translate(-50%, -50%);
             z-index: 1;
+
+            .btn{
+                border: none;
+                color: white;
+                padding: 6px 12px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+            .rotate{background-color: #2196F3;}
+            .rotate:hover{background-color: #0b7dda;}
         }
         </style>
     </head>
     <body style="background-color: #2c2d33;">
         <h2>Beispiel Babylon.js</h2><br>
         <div class="center-container">
-            <button id="rotateButton">Rotate Camera</button>
+            <button id="rotateButton" class="btn rotate">Rotieren</button>
         </div>
         <canvas id="renderCanvas"></canvas>
         <script>
@@ -96,8 +107,6 @@
                             requestAnimationFrame(rotateCameraContinuously);
                         }
                     }
-
-
                 return scene;
             };
             const scene = createScene(); //Call the createScene function
