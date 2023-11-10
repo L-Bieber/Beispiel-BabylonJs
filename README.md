@@ -1,9 +1,6 @@
 # Beispiel-BabylonJs
-Sicher, hier ist eine README-Datei für deine Babylon.js-Präsentation auf Deutsch:
 
 ---
-
-# Babylon.js Präsentation
 
 Dies ist ein einfaches Beispiel für eine Babylon.js-Präsentation, das zeigt, wie man eine 3D-Szene mit einer rotierenden Kamera und einem Button zur Steuerung der Rotation erstellt. Dies ist ein Ausgangspunkt, um Babylon.js zu erkunden und interaktive 3D-Webanwendungen zu erstellen.
 
